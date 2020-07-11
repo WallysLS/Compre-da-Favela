@@ -1,14 +1,24 @@
 {
-  "name": "campus",
+  "name": "compredafavela",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WallysLS/Compre-da-Favela.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "modules": "^0.4.0"
-  }
+  "bugs": {
+    "url": "https://github.com/WallysLS/Compre-da-Favela/issues"
+  },
+  "homepage": "https://github.com/WallysLS/Compre-da-Favela#readme"
 }
