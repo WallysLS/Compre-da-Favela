@@ -29,4 +29,4 @@ server.get("/negocios", (req, res) => {
     return res.render("negocios.html")
 })
 
-server.listen(3000)
+server.listen(process.env.PORT || 5000)
